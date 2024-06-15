@@ -1,5 +1,5 @@
--- create database twitter_x;
--- use twitter_x
+create database twitter_x;
+use twitter_x;
 
 create table users(
 	id int auto_increment primary key, 
