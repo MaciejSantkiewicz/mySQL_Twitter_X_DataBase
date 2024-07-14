@@ -5,10 +5,10 @@ from faker import Faker
 
 
 db_config = { #login to your mysql server
-    'user': 'root',
-    'password': 'elo123',
-    'host': 'localhost',
-    'database': 'twitter_x'
+    'user': 'xxx',
+    'password': 'xxx',
+    'host': 'xxx',
+    'database': 'xxx'
 }
 
 conn = mysql.connector.connect(**db_config)
