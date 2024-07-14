@@ -179,7 +179,7 @@ def create_new_data(
     insert_new_likes(number_of_new_likes)
     insert_new_followers(number_of_new_follows)
 
-create_new_data(0,20,10,5)
+
 
 cursor.close()
 conn.close()
