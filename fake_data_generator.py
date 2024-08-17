@@ -69,7 +69,7 @@ def insert_new_followers(number_of_inserts: int): #set followers
                 timestamp_date = datetime.strptime(str(fake_date), date_format)
 
                 date_difference = user_reg_date - timestamp_date                    
-                if date_difference.days < 0: #cheks if the timestamp of the follow didn't occure before the user registration
+                if date_difference.days > 0: #cheks if the timestamp of the follow didn't occure before the user registration
                     pass  
                 else:
                     insert_query = f"INSERT INTO {table_name} (follower_id, followee_id, created_at) VALUES (%s, %s, %s)"
